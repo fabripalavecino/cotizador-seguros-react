@@ -162,8 +162,8 @@ const Formulario = ({ guardarResumen, guardarCargando }) => {
         <InputRadio
           type="radio"
           name="plan"
-          value="basico"
-          checked={plan === "basico"}
+          value="básico"
+          checked={plan === "básico"}
           onChange={obtenerInformacion}
         />{" "}
         Básico
